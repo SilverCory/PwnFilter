@@ -55,6 +55,10 @@
 
     <repositories>
         <repository>
+            <id>md-5</id>
+            <url>http://repo.md-5.net/content/groups/public/</url>
+        </repository>
+        <repository>
             <id>sponge</id>
             <url>http://repo.spongepowered.org/maven</url>
         </repository>
@@ -85,6 +89,13 @@
 
 
     <dependencies>
+
+        <dependency>
+            <groupId>net.md-5</groupId>
+            <artifactId>bungeecord-api</artifactId>
+            <version>1.9-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>org.spongepowered</groupId>
             <artifactId>spongeapi</artifactId>
